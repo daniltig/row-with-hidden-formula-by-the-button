@@ -1,0 +1,32 @@
+.div1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: fit-content;
+   border: 1px solid gray;
+}
+.arrow {
+   position: relative;
+   width: 25px;
+   height: 25px;
+   user-select: none; /*убирает возможность выделить содержимое*/
+   cursor: pointer; /*вид курсора при наведении Рука*/
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 10px;
+}
+.arrowFormula{
+   position: relative;
+   width: fit-content;
+   height: 25px;
+   user-select: none; /*убирает возможность выделить содержимое*/
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.arrowFormula[hidden]{
+   display: none;
+}
